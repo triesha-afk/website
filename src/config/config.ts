@@ -6,13 +6,13 @@ export const getAsset = (path: string) => {
 
 const siteConfig = {
   personal: {
-    name: 'Put your name inside the quote',
-    title: 'Your Title | Your Role',
-    image: getAsset('images/profile.png'), // Customize or replace with your profile image
+    name: 'Triesha V H',
+    title: 'Student | Christ Uniiversity',
+    image: getAsset('"C:\Users\Lenovo\OneDrive\Pictures\Screenshot 2025-11-03 085253.png"'), // Customize or replace with your profile image
     description:
-      'Write a short bio here describing your background and focus. Keep it to 2–4 sentences.\n' +
+      'Bachelor of Science in Economics with Data Science, 1st year. Bangalore, India.\n' +
       '\n' +
-      'Mention your institution or company, areas of interest, and what you teach or build.\n' +
+      'Part of 2/9 Coy, Christ University NCC. \n' +
       '\n' +
       'Summarize your education or certifications briefly and highlight your practical work.\n' +
       '\n' +
