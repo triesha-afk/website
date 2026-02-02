@@ -1,14 +1,11 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  output: "export", // 👈 enables static site generation for GitHub Pages
-  basePath: "/website", // 👈 must match your repo name exactly
-  assetPrefix: "/website/", // 👈 ensures assets load correctly
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export',
   images: {
-    unoptimized: true, // 👈 disables Next.js image optimization (needed for static hosting)
+    unoptimized: true,
   },
-  trailingSlash: true, // 👈 ensures proper routing on GitHub Pages
+  basePath: '/website',
+  assetPrefix: '/website/',
 };
 
-export default nextConfig;
-
+module.exports = nextConfig;
