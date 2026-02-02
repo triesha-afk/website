@@ -33,7 +33,6 @@ const siteConfig = {
     { name: 'Projects', url: '/projects' },
     { name: 'Research', url: '/research' },
     { name: 'Education', url: '/education' },
-    { name: 'Experience', url: '/experience' },
     { name: 'Blogs', url: '/blogs' },
     { name: 'Resume', url: '/resume' },
     { name: 'Contact', url: '/contact' },
@@ -80,26 +79,6 @@ const siteConfig = {
     {
       title: 'Another Certificate',
       file: getAsset('images/education/Certifications/download.svg'),
-    },
-  ],
-
-
-
-  // ✅ Experience section updated
-  experience: [
-    {
-      title: 'Your Role',
-      cardImage: getAsset('images/experience/placeholder.png'),
-      place: 'Your Organization',
-      time: '(MMM YYYY – Present)',
-      desp: ['Brief responsibility 1', 'Brief responsibility 2'],
-    },
-    {
-      title: 'Previous Role',
-      cardImage: getAsset('images/experience/placeholder.png'),
-      place: 'Previous Organization',
-      time: '(MMM YYYY – MMM YYYY)',
-      desp: ['Key contribution 1', 'Key contribution 2'],
     },
   ],
 
