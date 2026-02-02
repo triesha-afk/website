@@ -8,7 +8,7 @@ const siteConfig = {
   personal: {
     name: 'Triesha V H',
     title: 'Student | Christ Uniiversity',
-    image: getAsset('"C:\Users\Lenovo\OneDrive\Pictures\Screenshot 2025-11-03 085253.png"'), // Customize or replace with your profile image
+    image: getAsset('"public/images/cute-avocado-in-green-pastel-background-wallpaper-1440x900_4.jpg"'), // Customize or replace with your profile image
     description:
       'Bachelor of Science in Economics with Data Science, 1st year. Bangalore, India.\n' +
       '\n' +
