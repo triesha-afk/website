@@ -8,7 +8,7 @@ const siteConfig = {
   personal: {
     name: 'Triesha V H',
     title: 'Student | Christ Uniiversity',
-    image: getAsset('"images/cute-avocado-in-green-pastel-background-wallpaper-1440x900_4.jpg"'), // Customize or replace with your profile image
+    image: getAsset('images/cute-avocado-in-green-pastel-background-wallpaper-1440x900_4.jpg'), // Customize or replace with your profile image
     description:
       'Bachelor of Science in Economics with Data Science, 1st year. Bangalore, India.\n' +
       '\n' +
@@ -62,23 +62,6 @@ const siteConfig = {
       year: '2023-2025',
       image: getAsset('images/education/placeholder.png'),
       description: ['Completed NCC B Certificate'],
-    },
-  ],
-
-// ✅ Unified MOOC + Certifications Section
-  certifications: [
-    {
-      title: 'Volunteering Experience',
-      specialization: true,
-      file: getAsset('"C:\Users\Lenovo\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\67229472739BA1D83ECC1C8879D50CFE87522F99\transfers\2026-05\volunteer_certs.pdf"'),
-      certificates: [
-        { name: 'Course 1', file: getAsset('images/education/Certifications/download.svg') },
-        { name: 'Course 2', file: getAsset('images/education/Certifications/download.svg') },
-      ],
-    },
-    {
-      title: 'Another Certificate',
-      file: getAsset('images/education/Certifications/download.svg'),
     },
   ],
 
