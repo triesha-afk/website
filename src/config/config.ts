@@ -14,19 +14,19 @@ const siteConfig = {
       '\n' +
       'Part of 2/9 Coy, Christ University NCC. \n' +
       '\n' +
-      'Summarize your education or certifications briefly and highlight your practical work.\n' +
+      'Completed my 10th grade in SKCHEC CBSE, +2 in Christ Junior college (Humanities), and pursuing a BSc degree in Economics with Data Science.\n' +
       '\n' +
-      'Optional: Add notable books, workshops, or training you deliver.',
-    tagline: 'Add a concise personal tagline here.',
-    location: 'Your City, Country',
+      '',
+    tagline: 'Still waters run deep.',
+    location: 'Bangalore, India',
   },
 
   seo: {
-    title: 'Your Name – Your Title',
+    title: 'Triesha V H, Student',
     description: "Portfolio website showcasing your education, research, projects, and experience.",
   },
 
-  animatedText: ['Your Role', 'Your Focus', 'Your Interest', 'Builder'],
+  animatedText: ['Learn', 'Grow', 'Create', 'Share'],
 
   navigation: [
     { name: 'Home', url: '/' },
@@ -43,7 +43,7 @@ const siteConfig = {
   // Add more entries here as you add more static HTML blog files under public/static_page/
   blogs: [
     {
-      title: 'Your Blog Title',
+      title: 'TVH Blogs',
       url: getAsset('static_page/project_management_blog.html'), // Replace with your static HTML page
     },
   ],
@@ -51,27 +51,27 @@ const siteConfig = {
 
   education: [
     {
-      institution: 'Your Institution',
-      degree: 'Your Degree',
-      year: 'YYYY–YYYY',
+      institution: 'CHRIST (Deemed to be University)',
+      degree: 'BSc Economics with Data Science',
+      year: '2025-2028',
       image: getAsset('images/education/placeholder.png'),
-      description: ['Brief description of your focus or thesis'],
+      description: ['1st year student, completed NCC C Certificate'],
     },
     {
-      institution: 'Another Institution',
-      degree: 'Another Degree or Certificate',
-      year: 'YYYY–YYYY',
+      institution: 'Christ Junior College',
+      degree: '2nd PUC, Humanities',
+      year: '2023-2025',
       image: getAsset('images/education/placeholder.png'),
-      description: ['Key topics or skills learned'],
+      description: ['Completed NCC B Certificate'],
     },
   ],
 
 // ✅ Unified MOOC + Certifications Section
   certifications: [
     {
-      title: 'Your Certificate or Specialization',
+      title: 'Volunteering Experience',
       specialization: true,
-      file: getAsset('images/education/Certifications/download.svg'),
+      file: getAsset('"C:\Users\Lenovo\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\67229472739BA1D83ECC1C8879D50CFE87522F99\transfers\2026-05\volunteer_certs.pdf"'),
       certificates: [
         { name: 'Course 1', file: getAsset('images/education/Certifications/download.svg') },
         { name: 'Course 2', file: getAsset('images/education/Certifications/download.svg') },
@@ -150,7 +150,7 @@ const siteConfig = {
   contact: {
     email: 'your.email@example.com',
     linkedin: 'https://www.linkedin.com/in/your-linkedin/',
-    github: 'https://github.com/your-username',
+    github: 'https://github.com/triesha-afk',
     googleScholar: 'https://scholar.google.com/citations?user=YOURID',
     orcid: 'https://orcid.org/0000-0000-0000-0000',
   },
